@@ -8,7 +8,7 @@ This tool is specifically designed for owners of Zaptec charging devices. It uti
 
 - Fetch energy consumption data specifically for Zaptec devices via the Zaptec API.
 - Calculate energy costs for high fare and low fare periods.
-- Output detailed analysis of high and low fare energy usage into a CSV file.
+- Output detailed analysis of high and low fare energy usage into a CSV file and the console.
 - Handle time zone conversions and adjustments for daylight saving time.
 
 ## Prerequisites
@@ -44,6 +44,9 @@ To run this program, execute the following command in your terminal:
 ```bash
 go run main.go
 ```
+
+## API Documentation
+For more details on the API and its endpoints, visit the Zaptec API Documentation https://api.zaptec.com/help/index.html.
 
 This command initiates the application, which will retrieve energy consumption data for your specified date range, calculate the costs for high and low fare periods, and generate a detailData.csv file containing the detailed analysis.
 
