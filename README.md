@@ -44,11 +44,10 @@ To run this program, execute the following command in your terminal:
 ```bash
 go run main.go
 ```
+This command initiates the application, which will retrieve energy consumption data for your specified date range, calculate the costs for high and low fare periods, and generate a detailData.csv file containing the detailed analysis.
 
 ## API Documentation
 For more details on the API and its endpoints, visit the Zaptec API Documentation https://api.zaptec.com/help/index.html.
-
-This command initiates the application, which will retrieve energy consumption data for your specified date range, calculate the costs for high and low fare periods, and generate a detailData.csv file containing the detailed analysis.
 
 ## Main Use Case
 The primary use case of this tool is to analyze and understand the distribution of energy consumption between high fare and low fare periods for Zaptec charging devices. This analysis helps users make informed decisions to optimize their energy usage and reduce costs.
